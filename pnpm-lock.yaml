@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@teamnovu/vue-cloudinary-image':
+    specifier: ^3.0.4
+    version: 3.0.4
+  '@teamnovu/vue-cloudinary-image-statamic':
+    specifier: ^1.0.2
+    version: 1.0.2(vue@2.7.15)
   nuxt-graphql-client:
     specifier: ^0.2.31
     version: 0.2.31(graphql-tag@2.12.6)(typescript@4.9.5)
@@ -2560,6 +2566,22 @@ packages:
       - supports-color
     dev: true
 
+  /@teamnovu/vue-cloudinary-image-statamic@1.0.2(vue@2.7.15):
+    resolution: {integrity: sha512-JZu+2rFAzIiDiDf17pbj3aCmbWrw4AR6kAVgLCg2i/XALcCaMVEIhrdxVcA3vPeMJqQ91CW73jnAIfD+Nw7M5A==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      vue: ^2.6.11
+    dependencies:
+      vue: 2.7.15
+    dev: false
+
+  /@teamnovu/vue-cloudinary-image@3.0.4:
+    resolution: {integrity: sha512-yu/ugmkyO+CvHNJ5F03h2wBHULiNV6XrY3Hyq+1ObU6syva0PVOdtjwKV/5zBGneAj4la8GEkN7hlIxS52Qc7A==}
+    engines: {node: '>=10'}
+    dependencies:
+      ufo: 1.3.1
+    dev: false
+
   /@trysound/sax@0.2.0:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
@@ -2897,6 +2919,14 @@ packages:
       '@vue/compiler-core': 3.3.7
       '@vue/shared': 3.3.7
     dev: true
+
+  /@vue/compiler-sfc@2.7.15:
+    resolution: {integrity: sha512-FCvIEevPmgCgqFBH7wD+3B97y7u7oj/Wr69zADBf403Tui377bThTjBvekaZvlRr4IwUAu3M6hYZeULZFJbdYg==}
+    dependencies:
+      '@babel/parser': 7.23.0
+      postcss: 8.4.31
+      source-map: 0.6.1
+    dev: false
 
   /@vue/compiler-sfc@3.3.7:
     resolution: {integrity: sha512-7pfldWy/J75U/ZyYIXRVqvLRw3vmfxDo2YLMwVtWVNew8Sm8d6wodM+OYFq4ll/UxfqVr0XKiVwti32PCrruAw==}
@@ -3922,7 +3952,6 @@ packages:
 
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
-    dev: true
 
   /cuint@0.2.2:
     resolution: {integrity: sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==}
@@ -5911,7 +5940,6 @@ packages:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: true
 
   /nanoid@4.0.2:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
@@ -7013,7 +7041,6 @@ packages:
       nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -7531,7 +7558,6 @@ packages:
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /source-map-support@0.5.21:
     resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
@@ -7543,7 +7569,6 @@ packages:
   /source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /source-map@0.7.4:
     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
@@ -8395,6 +8420,13 @@ packages:
       '@vue/devtools-api': 6.5.1
       vue: 3.3.7(typescript@4.9.5)
     dev: true
+
+  /vue@2.7.15:
+    resolution: {integrity: sha512-a29fsXd2G0KMRqIFTpRgpSbWaNBK3lpCTOLuGLEDnlHWdjB8fwl6zyYZ8xCrqkJdatwZb4mGHiEfJjnw0Q6AwQ==}
+    dependencies:
+      '@vue/compiler-sfc': 2.7.15
+      csstype: 3.1.2
+    dev: false
 
   /vue@3.3.7(typescript@4.9.5):
     resolution: {integrity: sha512-YEMDia1ZTv1TeBbnu6VybatmSteGOS3A3YgfINOfraCbf85wdKHzscD6HSS/vB4GAtI7sa1XPX7HcQaJ1l24zA==}
