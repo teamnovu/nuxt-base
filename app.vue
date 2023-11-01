@@ -1,3 +1,3 @@
 <template>
-  <HelloWorld />
+  <p>@teamnovu/nuxt-base Layer</p>
 </template>

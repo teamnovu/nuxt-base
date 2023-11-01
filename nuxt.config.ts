@@ -5,11 +5,4 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-graphql-client'
   ],
-
-  components: [
-    {
-      path: '~/components/base',
-      global: true,
-    },
-  ]
 })
