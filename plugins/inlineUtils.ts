@@ -6,6 +6,7 @@ export default defineNuxtPlugin(() => {
     provide: {
       isExternalUrl,
       removeHtmlTags,
+      useTarget,
     },
   }
 })
