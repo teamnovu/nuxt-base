@@ -7,6 +7,7 @@ export default defineNuxtPlugin(() => {
       isExternalUrl,
       removeHtmlTags,
       useTarget,
+      removePTags,
     },
   }
 })
