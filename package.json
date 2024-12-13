@@ -18,6 +18,6 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "nuxt-graphql-client": "^0.2.31"
+    "nuxt-graphql-client": "^0.2.43"
   }
 }
